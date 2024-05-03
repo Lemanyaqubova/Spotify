@@ -1,0 +1,209 @@
+#main-side {
+  background-color: rgb(18, 18, 18) !important;
+  #spotify-header {
+    .content {
+      .left-side {
+        gap: 8px;
+        display: flex;
+        align-items: center;
+        .arrows {
+          display: flex;
+          gap: 8px;
+        }
+        .search-area {
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #242424;
+          border: 2px solid transparent;
+          border-radius: 500px;
+          color: #fff;
+          height: 48px;
+          padding: 0 103px 0 17px;
+          gap: 11px;
+          position: relative;
+          &:focus-within {
+            border-color: white;
+          }
+          input {
+            outline: none;
+            background-color: transparent;
+            border: none;
+            color: white;
+          }
+          i {
+            color: rgb(160, 160, 160);
+          }
+          .delete {
+            position: absolute;
+            right: 17px;
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  #navbar-mobile-search {
+    display: none;
+    @include for-size(mobile) {
+      display: inline;
+    }
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      .left-side {
+        width: 100%;
+        h1 {
+          margin-bottom: 16px;
+          margin-top: 32px;
+          color: white;
+          font-size: 30px;
+        }
+      }
+      .right-side {
+        width: 100%;
+        .search-area-nav {
+          position: relative;
+          display: flex;
+          background-color: white;
+          border-radius: 4px;
+          gap: 8px;
+          height: 44px;
+          padding: 0 16px;
+          white-space: nowrap;
+          width: 100%;
+          @include for-size(mobile) {
+            padding: 13px 16px;
+            display: flex;
+            align-items: center;
+          }
+          input {
+            border: none;
+            outline: none;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            height: 100%;
+            &::placeholder {
+              color: rgb(18, 18, 18);
+              font-size: 18px;
+            }
+          }
+          .search {
+            font-size: 20px;
+          }
+          .delete {
+            // position: absolute;
+            font-size: 20px;
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  #cards-area {
+
+   .content{
+   @include for-size(mobile){
+    overflow-y: hidden;
+   }
+   height: 100%;
+    .throwback{
+      h2{
+        @include for-size(mobile){
+          font-size:  18px;
+        }
+      }
+    }
+    .main-cards-search {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin: auto;
+      @include for-size(tablet) {
+        .card-container:last-child {
+          display: none;
+        }
+      }
+      @include for-size(mobile) {
+        .card-container:last-child {
+          display: initial;
+        }
+
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .card-container-search {
+        &:nth-child(1) .card {
+          background-color: rgb(233, 20, 41);
+        }
+        &:nth-child(2) .card {
+          background-color: rgb(71, 125, 149);
+        }
+        &:nth-child(3) .card {
+          background-color: rgb(125, 75, 50);
+        }
+        &:nth-child(4) .card {
+          background-color: rgb(216, 64, 0);
+        }
+        &:nth-child(5) .card {
+          background-color: rgb(80, 55, 80);
+        }
+        &:nth-child(6) .card {
+          background-color: rgb(20, 138, 8);
+        }
+        &:nth-child(7) .card {
+          background-color: rgb(140, 25, 50);
+        }
+        &:nth-child(8) .card {
+          background-color: rgb(132, 0, 231);
+        }
+        &:nth-child(9) .card {
+          background-color: rgb(220, 20, 140);
+        }
+
+        .card {
+          width: 209.82px;
+          height: 209.82px;
+          border: none;
+          border-radius: 8px;
+          overflow: hidden;
+          position: relative;
+          cursor: pointer;
+          @include for-size(tablet) {
+            width: 205.82px;
+            height: 205.82px;
+          }
+          @include for-size(mobile) {
+            width: 126px;
+            height: 92px;
+          }
+          p {
+            padding: 16px;
+            display: inline-block;
+            color: white;
+            font-size: 23px;
+            @include for-size(mobile) {
+              padding: 10px;
+              font-size: 19px;
+            }
+          }
+          img {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            transform: rotate(25deg) translate(18%, -2%);
+            right: 0;
+            bottom: 0;
+            @include for-size(mobile) {
+              width: 60px;
+              height: 60px;
+            }
+          }
+        }
+      }
+    }
+   }
+  }
+}

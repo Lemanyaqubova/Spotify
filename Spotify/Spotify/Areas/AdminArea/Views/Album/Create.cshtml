@@ -1,0 +1,41 @@
+﻿@model AlbumCreateVM
+
+
+<div class="container-fluid mx-5 my-3">
+    <h3>Album Create</h3>
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div>
+            <label class="my-3" asp-for="Photo"></label>
+            <input class="form-control" asp-for="Photo">
+            <span class="text-danger my-1" asp-validation-for="Photo"></span>
+        </div>
+        <div>
+            <label class="my-3" asp-for="Name">Name</label>
+            <input class="form-control" asp-for="Name">
+            <span class="text-danger my-1" asp-validation-for="Name"></span>
+        </div>
+        <div>
+            <label class="my-3" asp-for="CreatedTime"></label>
+            <input class="form-control" asp-for="CreatedTime">
+            <span class="text-danger my-1" asp-validation-for="CreatedTime"></span>
+        </div>
+        <div>
+            <label asp-for="ArtistId">Artists</label>
+            <select asp-for="ArtistId" class="form-select" asp-items="ViewBag.Artists"></select>
+            <div>
+                <span asp-validation-for="ArtistId" class="text-danger"></span>
+            </div>
+        </div>
+        <div>
+            <label asp-for="CategoryId">Category</label>
+            <select asp-for="CategoryId" class="form-select" asp-items="ViewBag.Category"></select>
+            <div>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+        </div>
+
+
+        <a class="btn btn-danger my-3" style="color: white;" asp-controller="album" asp-action="Index">Back</a>
+        <button type="submit" class="btn btn-primary my-3" style="color: white;">Create</button>
+    </form>
+</div>

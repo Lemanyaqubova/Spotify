@@ -1,0 +1,400 @@
+#all-p{
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: thin;
+  overflow-x: hidden;
+  height: 300px;
+  #premium-page {
+    background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)),
+      linear-gradient(78.87deg, #b00d6e -3.32%, #084791 112.02%);
+  
+    width: 100%;
+  
+    .context {
+      @include container;
+      // overflow-y: auto;
+      // -ms-overflow-style: none;
+      // scrollbar-width: thin;
+      .header-view {
+        position: relative;
+        @include for-size(mobile) {
+          height: 345px;
+        }
+        .premium-hero-badge {
+          background: hsla(0, 0%, 100%, 0.1);
+          border-radius: 4px;
+          margin: 20px 32px;
+          padding: 8px 16px;
+          position: absolute;
+          right: 0;
+          p {
+            color: white;
+          }
+          @include for-size(mobile) {
+            display: none;
+          }
+        }
+        .premium-plans {
+          display: flex;
+          justify-content: center;
+          padding: 80px 16px 40px;
+          @include for-size(mobile) {
+            padding: 26px 2px 0px;
+          }
+  
+          .p {
+            width: 760px;
+            height: 225px;
+            @include for-size(tablet) {
+              width: 100%;
+            }
+            @include for-size(mobile) {
+              width: 100%;
+            }
+            h1 {
+              padding-bottom: 8px;
+              color: white;
+              height: 72px;
+              font-size: 29px;
+              display: flex;
+              text-align: center;
+              @include for-size(tablet) {
+                font-size: 32px;
+                margin-bottom: 10px;
+              }
+              @include for-size(mobile) {
+                text-align: left;
+                height: 155px;
+              }
+            }
+            #price {
+              height: 24px;
+              color: white;
+              font-family: "Poppins";
+              text-align: center;
+              font-size: 18px;
+              @include for-size(mobile) {
+                text-align: left;
+                font-size: 13px;
+              }
+            }
+            .buttons-premium {
+              margin: 24px 0px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+              @include for-size(mobile) {
+                margin: 9px 0px;
+              }
+              .try-free {
+                width: 224px;
+                height: 48px;
+                background-color: white;
+                border: none;
+                border-radius: 9999px;
+                cursor: pointer;
+                display: inline-block;
+                margin: 8px;
+                padding: 8px 32px;
+                transition: 0.3s;
+                @include for-size(mobile) {
+                  width: 100%;
+                  margin: 0px 0px 8px 0px;
+                }
+                p {
+                  color: black;
+                  font-family: "Circular";
+                  font-size: 16px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+                &:hover {
+                  transform: scale(0.95);
+                }
+              }
+              .all-premium {
+                width: 235px;
+                height: 48px;
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 9999px;
+                transition: 0.3s;
+                cursor: pointer;
+                @include for-size(mobile) {
+                  width: 100%;
+                }
+                p {
+                  color: white;
+                  font-family: "Circular";
+                  font-size: 16px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+                &:hover {
+                  transform: scale(0.95);
+                }
+              }
+            }
+            p {
+              height: 16px;
+              font-family: "Circular";
+              font-size: 12px;
+              color: white;
+              text-align: center;
+              @include for-size(mobile) {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #premium-cards {
+    background-color: rgb(18, 18, 18);
+    .context {
+      @include container;
+      .plans-forsituation {
+        background-color: rgb(18, 18, 18);
+        justify-content: center;
+        padding: 32px 16px;
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        h1 {
+          font-size: 30px;
+          margin-bottom: 5px;
+          text-align: center;
+        }
+        p {
+          font-size: 14px;
+          font-family: "Poppins";
+          text-align: center;
+          @include for-size(mobile) {
+            font-size: 12px;
+          }
+        }
+      }
+      .premium-plans {
+        padding: 20px;
+        margin: 30px 0;
+        background: linear-gradient(rgb(18, 18, 18), rgb(18, 18, 18)) padding-box
+            padding-box,
+          linear-gradient(to right, rgb(176, 13, 110), rgb(8, 71, 145)),
+          border-box border-box;
+        border-radius: 14px;
+        border-top: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+        border-image: initial;
+        border-left: 4px solid rgb(176, 13, 110) !important;
+        border-right: 4px solid rgb(8, 71, 145) !important;
+  
+        h2 {
+          text-align: center;
+          color: white;
+        }
+        .list {
+          margin-top: 12px;
+          text-align: center;
+  
+          ul {
+            padding-inline: 339px 0px;
+            text-align: justify;
+            color: white;
+            @include for-size(tablet) {
+              padding-inline: 222px 0px;
+            }
+            @include for-size(mobile) {
+              padding-inline: 43px 0px;
+            }
+            div {
+              display: flex;
+              align-items: center;
+  
+              span {
+                margin-left: 4px;
+                font-size: 13px;
+              }
+              i {
+                font-size: 21px;
+              }
+            }
+          }
+        }
+      }
+      .cards-premium {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        margin: 0 32px 72px;
+        justify-content: center;
+        padding-bottom: 50px;
+        :nth-child(1).plan-card {
+          border: 4px solid #ffd2d7;
+  
+          .month {
+            background: #ffd2d7;
+          }
+          button {
+            background-color: #ffd2d7;
+            &:hover{
+              background-color: rgb(255, 235, 238);
+            }
+          }
+        }
+        :nth-child(2).plan-card {
+          border: 4px solid #c4b1d4;
+  
+          .month {
+            background: #c4b1d4;
+          }
+          button {
+            background-color: #c4b1d4;
+            &:hover{
+              background-color: rgb(208, 193, 221);
+            }
+          }
+        }
+        :nth-child(3).plan-card {
+          border: 4px solid #ffc862;
+          padding-top: 28px;
+          .free {
+            p {
+              font-size: 20px;
+            }
+          }
+          .month {
+            background: #ffc862;
+            display: none;
+          }
+          button {
+            background-color: #ffc862;
+            &:hover{
+              background-color: rgb(255, 209, 124);
+            }
+          }
+        }
+        :nth-child(4).plan-card {
+          border: 4px solid #a5bbd1;
+          padding-top: 28px;
+          .month {
+            background: #a5bbd1;
+            display: none;
+          }
+          button {
+            background-color: #a5bbd1;
+            &:hover{
+              background-color: rgb(182, 200, 218);
+            }
+          }
+        }
+  
+        .plan-card {
+          display: flex;
+          flex-direction: column;
+          border-radius: 8px;
+          flex-basis: 335px;
+          padding: 12px;
+          width: 320px;
+          height: 341px;
+  
+          .month {
+            align-self: flex-start;
+            display: inline-block;
+            border-radius: 2px;
+            color: black;
+            font-weight: 700;
+            padding: 8px;
+            height: 28px;
+            display: flex;
+            p {
+              align-items: center;
+              text-transform: uppercase;
+              font-size: 0.75rem;
+            }
+          }
+          .card-name {
+            display: flex;
+            color: #fff;
+            justify-content: space-between;
+            margin-top: 24px;
+  
+            h3{
+              font-size: 23px;
+              @include for-size(mobile){
+                font-size: 16px;
+              }
+            }
+            .free {
+              display: flex;
+              text-align: right;
+              width: 74.67px;
+              height: 39.33px;
+              flex-wrap: wrap;
+              justify-content: flex-end;
+  
+              h3 {
+                font-size: 22px;
+                @include for-size(mobile){
+                  font-size: 13px;
+                }
+              }
+              span {
+                font-size: 11px;
+              }
+            }
+          }
+          ul {
+            color: white;
+            margin-top: 24px;
+            padding-left: 32px;
+            height: 66px;
+            @include for-size(mobile){
+              padding-left: 17px;
+            }
+  
+            li {
+              font-family: "Poppins";
+              font-size: 15px;
+              @include for-size(mobile){
+                font-size: 13px;
+              }
+            }
+          }
+          button {
+            height: 48px;
+            margin-top: 24px;
+            border-radius: 9999px;
+            border: none;
+            cursor: pointer;
+            @include for-size(mobile){
+              margin-top: 10px;
+            }
+            span {
+              // padding: 32px 8px;
+              font-family: "Circular";
+              font-size: 17px;
+            }
+          }
+          .card-footer {
+            color: white;
+            text-align: center;
+            font-family: "Poppins";
+            font-size: 10px;
+            margin-top: 12px;
+            @include for-size(mobile){
+              margin-top: 30px
+            }
+            p{
+              font-size: 8px;
+            
+            }
+          }
+        }
+      }
+    }
+  }
+}

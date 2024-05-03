@@ -1,0 +1,1169 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\admin\\css\\maps\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.eot"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.woff"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\images\\auth\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\images\\auth\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\lockscreen-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\images\\auth\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\images\\auth\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\register-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\admin\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\js\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\js\\chart.js",
+      "PackagePath": "staticwebassets\\admin\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\js\\custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\js\\data-table.js",
+      "PackagePath": "staticwebassets\\admin\\js\\data-table.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\js\\documentation.js",
+      "PackagePath": "staticwebassets\\admin\\js\\documentation.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\admin\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\admin\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\admin\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\admin\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\js\\template.js",
+      "PackagePath": "staticwebassets\\admin\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\_background.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\_demo.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_demo.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\_layouts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_layouts.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\_reset.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_vertical-wrapper.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\components\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\components\\_bootstrap-progress.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_bootstrap-progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\components\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\components\\plugin-overrides\\_data-tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\plugin-overrides\\_data-tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\landing-screens\\_auth.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\landing-screens\\_auth.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\mixins\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\mixins\\_animation.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\mixins\\_blockqoute.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_blockqoute.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\vendors\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\vendors\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\vendors\\base\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\vendors\\base\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\vendors\\base\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\vendors\\datatables.net\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\fonts\\CircularStd-Bold.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\CircularStd-Bold.otf"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\fonts\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\fonts\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\icons\\music.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\music.svg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\icons\\pilus.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\pilus.svg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\032764b5-64f3-436a-8a21-37a9502d1536_SinatraBasie.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\032764b5-64f3-436a-8a21-37a9502d1536_SinatraBasie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\04a7d0d9-4c91-4c96-85b8-96c10743929e_Beyoncé.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\04a7d0d9-4c91-4c96-85b8-96c10743929e_Beyoncé.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\19656608-2711-43f2-825d-907abb48d5ee_OneDirection.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\19656608-2711-43f2-825d-907abb48d5ee_OneDirection.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\367e8215-58e8-402e-be6d-99957b8fb298_FrankSinatra.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\367e8215-58e8-402e-be6d-99957b8fb298_FrankSinatra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\40512500-e355-40f0-ace6-b94eb954ed09_ab67616d00001e02efc6988972cb04105f002cd4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\40512500-e355-40f0-ace6-b94eb954ed09_ab67616d00001e02efc6988972cb04105f002cd4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\5bf46d61-803e-4252-a5f2-9a79ce057a18_LOUD.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\5bf46d61-803e-4252-a5f2-9a79ce057a18_LOUD.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\6a63d5a0-94a0-4560-a8d8-cbba6c478219_portofino.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\6a63d5a0-94a0-4560-a8d8-cbba6c478219_portofino.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\729fc494-076c-4e98-b716-ae1fb3bb1070_pexels-ryan-morris-12747532.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\729fc494-076c-4e98-b716-ae1fb3bb1070_pexels-ryan-morris-12747532.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\77c10fbb-779f-4f39-8abf-22f040f327c9_CountBasieAbout.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\77c10fbb-779f-4f39-8abf-22f040f327c9_CountBasieAbout.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\828e04d7-7756-40ce-be6b-7f854808ca71_pexels-alyssa-rose-9513906.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\828e04d7-7756-40ce-be6b-7f854808ca71_pexels-alyssa-rose-9513906.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\865fe15c-cd02-431e-afc5-36ac2edda3edab6761860000101606f7730314d8eff6663d6918.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\865fe15c-cd02-431e-afc5-36ac2edda3edab6761860000101606f7730314d8eff6663d6918.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\912ab851-2d16-4969-8929-9089e290e6d0guest-template.png",
+      "PackagePath": "staticwebassets\\assets\\images\\912ab851-2d16-4969-8929-9089e290e6d0guest-template.png"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\94eb793a-7889-4192-a8eb-ba4db5a04346Eminem.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\94eb793a-7889-4192-a8eb-ba4db5a04346Eminem.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\9986c06d-4b73-4f6e-a480-aa542900c6842c764f39-c9ec-4b8c-ad02-db3ca428f40cab6761860000101606f7730314d8eff6663d6918.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\9986c06d-4b73-4f6e-a480-aa542900c6842c764f39-c9ec-4b8c-ad02-db3ca428f40cab6761860000101606f7730314d8eff6663d6918.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\AboutDaftpunk.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\AboutDaftpunk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\AfterHours.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\AfterHours.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\AlbumDaft.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\AlbumDaft.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\BeyonceAbout.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\BeyonceAbout.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Beyoncé.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Beyoncé.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Chill.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Chill.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Classical.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Classical.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\CountBasie.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\CountBasie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\CountBasieAbout.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\CountBasieAbout.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Daft Punk.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Daft Punk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\DefaultMusic.png",
+      "PackagePath": "staticwebassets\\assets\\images\\DefaultMusic.png"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Electronic.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Electronic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Eminem.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Eminem.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Encore.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Encore.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\FrankSinatra.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\FrankSinatra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\FrankSinatraAbout.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\FrankSinatraAbout.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\GoodGirl.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\GoodGirl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Hip-Hop (2).jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Hip-Hop (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Hip-Hop.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Hip-Hop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Jazz.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Jazz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\LOUD.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\LOUD.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\LogoIcon.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\LogoIcon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Metal.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Metal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Music.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Music.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Piano.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Piano.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Pop.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Pop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Rihanna.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Rihanna.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Rock (2).jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Rock (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Rock.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Rock.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Sinatra.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Sinatra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\SinatraBasie.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\SinatraBasie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Soul.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Soul.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\SpotifyLogoBlack.png",
+      "PackagePath": "staticwebassets\\assets\\images\\SpotifyLogoBlack.png"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Spotify_Logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\Spotify_Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\Strangers.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\Strangers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\TheWeeknd.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\TheWeeknd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\TheWorldKnow.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\TheWorldKnow.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\TrueAlbum.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\TrueAlbum.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\TweWeekndAbout.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\TweWeekndAbout.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\ViralHits.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ViralHits.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\_LOVE SCENARIO_ By_ iKON.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\_LOVE SCENARIO_ By_ iKON.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\ab6761610000f178a7bfd7835b5c1eee0c95fa6e.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ab6761610000f178a7bfd7835b5c1eee0c95fa6e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\ab67618600001016e38b5eaa6d5cd43d0193d511.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ab67618600001016e38b5eaa6d5cd43d0193d511.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\ab67757000003b8255c25988a6ac314394d3fbf5 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ab67757000003b8255c25988a6ac314394d3fbf5 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\ae0b2e24-6238-45a5-a0fb-b6161c2a883a_Beyoncé.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ae0b2e24-6238-45a5-a0fb-b6161c2a883a_Beyoncé.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\afdcbdce-7188-4369-9dfe-1f7109d25599_LOUD.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\afdcbdce-7188-4369-9dfe-1f7109d25599_LOUD.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\avici.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avici.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\aviciAbout.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\aviciAbout.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\b9e99667-247e-44a7-b94d-cfe7144d2a85_FrankSinatraAbout.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\b9e99667-247e-44a7-b94d-cfe7144d2a85_FrankSinatraAbout.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\bbc2bb9d-eda4-479f-abaf-96c7a9b4f2ee_Beyoncé.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bbc2bb9d-eda4-479f-abaf-96c7a9b4f2ee_Beyoncé.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\beyonce.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\beyonce.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\c1fc94ac-d566-4eea-b292-e403c911a4bcrihannaAlbum.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\c1fc94ac-d566-4eea-b292-e403c911a4bcrihannaAlbum.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\crazyInLove.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\crazyInLove.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\cuffIt.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cuffIt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\d1353e5b-9545-486d-9712-a5df99c8cba7_ab67616d00001e02efc6988972cb04105f002cd4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\d1353e5b-9545-486d-9712-a5df99c8cba7_ab67616d00001e02efc6988972cb04105f002cd4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\eb2cbab4-72a5-41a0-b9ca-27bfa71865d9ab6761860000101606f7730314d8eff6663d6918.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\eb2cbab4-72a5-41a0-b9ca-27bfa71865d9ab6761860000101606f7730314d8eff6663d6918.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\ef362cb6-700c-466a-a190-20780045e448_Beyoncé.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ef362cb6-700c-466a-a190-20780045e448_Beyoncé.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\em.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\em.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\f89b8632-1eab-47ad-9f2c-b5583891ffd1_BeyonceAbout.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\f89b8632-1eab-47ad-9f2c-b5583891ffd1_BeyonceAbout.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\kapital.png",
+      "PackagePath": "staticwebassets\\assets\\images\\kapital.png"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\liked-songs-300.png",
+      "PackagePath": "staticwebassets\\assets\\images\\liked-songs-300.png"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\pasha.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pasha.png"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\pexels-vlada-karpovich-4451501.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pexels-vlada-karpovich-4451501.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\rihannaAbout.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rihannaAbout.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\rihannaAlbum.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\rihannaAlbum.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\images\\visa.png",
+      "PackagePath": "staticwebassets\\assets\\images\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\Superstar.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\Superstar.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\crazyInLove.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\crazyInLove.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\song2.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\song2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - After Hours.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - After Hours.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - All or Nothing at All.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - All or Nothing at All.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Beyond.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Beyond.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Blow (1).mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Blow (1).mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Blow.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Blow.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - CUFF IT.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - CUFF IT.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - California King Bed.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - California King Bed.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Call Me.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Call Me.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Complicated.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Complicated.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Consideration.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Consideration.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Cry.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Cry.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Curtains Up.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Curtains Up.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Don't Stop The Music.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Don't Stop The Music.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Drunk in Love (feat. Jay-Z) (1).mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Drunk in Love (feat. Jay-Z) (1).mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Evil Deeds.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Evil Deeds.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Fading.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Fading.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Give Life Back to Music.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Give Life Back to Music.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Halo.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Halo.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Heartless.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Heartless.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Heaven.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Heaven.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - If I Never See Your Face Again.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - If I Never See Your Face Again.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - James Joint.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - James Joint.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Jealous.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Jealous.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Kiss It Better.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Kiss It Better.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Man Down.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Man Down.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - My Baby Just Cares For Me.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - My Baby Just Cares For Me.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Never Enough.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Never Enough.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - No Angel (1).mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - No Angel (1).mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - On a Clear Day (You Can See Forever).mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - On a Clear Day (You Can See Forever).mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Praise Jah In The Moonlight.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Praise Jah In The Moonlight.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Pretty Hurts (1).mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Pretty Hurts (1).mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Push Up On Me.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Push Up On Me.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Raining Men.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Raining Men.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - S&M.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - S&M.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Save Your Tears.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Save Your Tears.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Say It.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Say It.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Sell Me Candy.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Sell Me Candy.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Shut Up And Drive.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Shut Up And Drive.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Snowchild.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Snowchild.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Strangers In The Night.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Strangers In The Night.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Summer Wind.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Summer Wind.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Superstar.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Superstar.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Take A Bow.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Take A Bow.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - The Game of Love.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - The Game of Love.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Too Late.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Too Late.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Umbrella.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Umbrella.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Until I Bleed Out.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Until I Bleed Out.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - What's My Name_.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - What's My Name_.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Within.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Within.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Work.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Work.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - XO (2).mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - XO (2).mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - Yellow Brick Road.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - Yellow Brick Road.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\assets\\music\\spotifydown.com - You’re Driving Me Crazy!.mp3",
+      "PackagePath": "staticwebassets\\assets\\music\\spotifydown.com - You’re Driving Me Crazy!.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\active.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\active.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\activeWishlist.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\activeWishlist.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\addRating.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\addRating.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\detail.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\detail.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\errorIcon.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\errorIcon.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\loadMore.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\loadMore.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\musicTime.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\musicTime.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\navbar.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\navbar.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\password.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\password.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\playButtons.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\playButtons.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\playMusic.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\playMusic.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\playlistSearch.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\playlistSearch.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\popup.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\popup.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\search.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\search.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\searchInput.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\searchInput.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\sidebar.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\sidebar.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\signUp.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\signUp.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\common\\functionalities\\wishlist.js",
+      "PackagePath": "staticwebassets\\common\\functionalities\\wishlist.js"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\base\\_reset.scss",
+      "PackagePath": "staticwebassets\\scss\\base\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\base\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\base\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\components\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\components\\_popup.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_popup.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\components\\_sidebarCard.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_sidebarCard.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\layout\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\layout\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\layout\\_playerSong.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_playerSong.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\layout\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_albumDetail.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_albumDetail.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_artistDetail.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_artistDetail.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_categoryDetail.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_categoryDetail.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_customPlaylist.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_customPlaylist.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_detail.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_detail.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_dynamicSearch.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_dynamicSearch.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_forgetPassword.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_forgetPassword.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_home.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_home.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_likedSong.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_likedSong.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_login.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_login.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_payment.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_payment.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_premium.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_premium.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_profile.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_profile.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_search.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_search.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_signUp.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_signUp.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\pages\\_songDetail.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_songDetail.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\style.css",
+      "PackagePath": "staticwebassets\\scss\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\utils\\_mixin.scss",
+      "PackagePath": "staticwebassets\\scss\\utils\\_mixin.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\scss\\utils\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\utils\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\verifymail\\forgotVerify.html",
+      "PackagePath": "staticwebassets\\verifymail\\forgotVerify.html"
+    },
+    {
+      "Id": "C:\\Users\\Leman\\OneDrive\\Desktop\\Programming\\FinalProject\\Spotify\\Spotify\\wwwroot\\verifymail\\verify.html",
+      "PackagePath": "staticwebassets\\verifymail\\verify.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Spotify.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Spotify.props",
+      "PackagePath": "build\\Spotify.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Spotify.props",
+      "PackagePath": "buildMultiTargeting\\Spotify.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Spotify.props",
+      "PackagePath": "buildTransitive\\Spotify.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

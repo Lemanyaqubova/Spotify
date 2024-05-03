@@ -1,0 +1,42 @@
+﻿@model CategoryUpdateVM
+
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title"></h4>
+                <p class="card-description">
+                    Update Category
+                </p>
+                <form method="post" class="forms-sample" enctype="multipart/form-data">
+                    <div class="main-image">
+                        <h3>Main image</h3>
+                        <img width="200" src="~/assets/images/@Model.ImageUrl" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Photo"></label>
+                        <input asp-for="Photo" class="form-control" placeholder="Photo">
+                        <span class="text-danger" asp-validation-for="Photo"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Name"></label>
+                        <input asp-for="Name" class="form-control" placeholder="Name">
+                        <span class="text-danger" asp-validation-for="Name"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Color"></label>
+                        <input asp-for="Color" class="form-control" placeholder="time">
+                        <span class="text-danger" asp-validation-for="Color"></span>
+                    </div>  
+                   
+                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                    <button class="btn btn-light">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <partial name="_ValidationPartial"></partial>
+      }

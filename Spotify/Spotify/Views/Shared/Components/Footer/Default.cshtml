@@ -1,0 +1,50 @@
+﻿@model List<Setting>
+
+<section id="footer">
+    <div class="content">
+        <div class="all-footer">
+            <div class="footer-info">
+                <div class="companies">
+                    <h3>Company</h3>
+                    <a href="https://www.spotify.com/az-en/about-us/contact/">About</a>
+                    <a href="https://www.lifeatspotify.com/">Jobs</a>
+                    <a href="https://newsroom.spotify.com/">For the Record</a>
+                </div>
+                <div class="communities">
+                    <h3>Communities</h3>
+                    <a href="https://artists.spotify.com/">For Artist</a>
+                    <a href="https://developer.spotify.com/">Developers</a>
+                    <a href="https://ads.spotify.com/en-US/">Advertising</a>
+                    <a href="https://investors.spotify.com/home/default.aspx">Inverstors</a>
+                </div>
+                <div class="useful">
+                    <h3>Contact Info</h3>
+                    <div class="mail">
+                        <i class="fa-regular fa-envelope"></i>
+                        <span>@Model.FirstOrDefault(s=>s.Key=="Email")?.Value</span>
+                    </div>
+                    <div class="adress">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>
+                            @Model.FirstOrDefault(s=>s.Key=="Address")?.Value
+                        </span>
+                    </div>
+                    <div class="number">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>@Model.FirstOrDefault(s=>s.Key=="PhoneNumber")?.Value</span>
+                    </div>
+                </div>
+                <div class="socialMedia-icons">
+                    <button><a href="@Model.FirstOrDefault(s=>s.Key=="Instagram")?.Value"><i class="fa-brands fa-instagram"></i></a></button>
+                    <button><a href="@Model.FirstOrDefault(s=>s.Key=="Twitter")?.Value"><i class="fa-brands fa-twitter"></i></a></button>
+                    <button><a href="@Model.FirstOrDefault(s=>s.Key=="Twitter")?.Value"><i class="fa-brands fa-facebook"></i></a></button>
+                </div>
+            </div>
+            <div class="footer-divide">
+                <div class="dvide">
+                    <p>© 2024 Spotify AB</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

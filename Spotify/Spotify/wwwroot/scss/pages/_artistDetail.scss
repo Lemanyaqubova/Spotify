@@ -1,0 +1,57 @@
+#detail-area {
+  .content {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+#top-music {
+  .context {
+  
+    .discography {
+        margin-top: 46px;
+        width: 100%;
+      h2 {
+        color: white;
+      }
+      .all-playlist{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 23px;
+        @include for-size(mobile) {
+          flex-wrap: nowrap;
+          overflow-x: scroll;
+          scroll-snap-type: x mandatory;
+        }
+        .card{
+            .album-d{
+                display: flex;
+                gap: 9px;
+            }
+        }
+      }
+    }
+    .artist-area {
+        width: 100%;
+        margin-top: 22px;
+        h2 {
+          color: white;
+          margin-bottom: 6px;
+        }
+        .all-card {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 23px;
+          @include for-size(mobile) {
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+            scroll-snap-type: x mandatory;
+          }
+          img {
+            border-radius: 50%;
+          }
+        }
+      }
+  }
+}

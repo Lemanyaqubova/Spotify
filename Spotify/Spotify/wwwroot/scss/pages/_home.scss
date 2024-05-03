@@ -1,0 +1,87 @@
+@include box;
+#main-side {
+  width: 943px;
+  background-color: rgb(31, 31, 31);
+  border-radius: 8px;
+
+  @include for-size(mobile){
+    background-color: rgb(18, 18, 18);
+  }
+
+#spotify-header{
+  background-color: rgb(18, 18, 18);
+}
+  #cards-area {
+    .content {
+      @include container;
+      display: flex;
+      flex-flow: row wrap;
+      padding: 8px 21px 0;
+      margin: auto;
+      height: 280px;
+      overflow-y: auto;
+      -ms-overflow-style: none;
+      scrollbar-width: thin;
+      &::-webkit-scrollbar-track {
+        background-color: rgb(31, 31, 31);
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: rgb(36, 36, 36);
+      }
+
+      // gap: 24px;
+      .throwback {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 8px;
+        @include for-size(mobile) {
+          margin-top: 24px !important;
+        }
+        h2 {
+          a {
+            color: white;
+            text-decoration: none;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+        > a {
+          color: gray;
+          text-decoration: none;
+          font-size: 13px;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      .main-cards {
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+        // margin: auto;
+        @include for-size(tablet) {
+          .card-container:last-child {
+            display: none;
+          }
+        }
+        @include for-size(mobile) {
+          .card-container:last-child {
+            display: initial;
+          }
+          overflow-x: scroll;
+          gap: 20px;
+          flex-wrap: nowrap;
+          scroll-snap-type: x mandatory;
+          -ms-verrflow-style: none;
+          &::-webkit-scrollbar {
+            width: 0;
+          }
+          
+        }
+      }
+    }
+  }
+}

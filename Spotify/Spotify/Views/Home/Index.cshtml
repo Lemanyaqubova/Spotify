@@ -1,0 +1,91 @@
+﻿@model HomeVM
+
+<section id="navbar-mobile">
+    <div class="content">
+        <div class="left-side">
+            <p>Recently added</p>
+        </div>
+        <div class="right-side">
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a href="#">
+                    <button id="setting"><i class="fa-solid fa-gear"></i></button>
+                </a>
+            }
+            else
+            {
+                <a href="#">
+                    <button id="signUp">Sign up</button>
+                </a>
+                <a href="#">
+                    <button id="signIn">Log in</button>
+                </a>
+            }
+        </div>
+        <div class="setting-menu">
+            <a asp-controller="profile" asp-action="index" asp-route-id="@User.Identity.IsAuthenticated ? User.Identity.Id : null">Profile</a>
+            <a asp-controller="account" asp-action="logout" id="logout"><span>Log Out</span></a>
+        </div>
+    </div>
+</section>
+
+<section id="cards-area">
+    <div class="content">
+        <div class="throwback">
+            <h2><a href="#" style="cursor:none">Recently added</a></h2>
+        </div>
+        <div class="main-cards">
+            @Html.Partial("_AlbumCardPV")
+        </div>
+    </div>
+</section>
+
+<section id="cards-area">
+    <div class="content">
+        <div class="throwback">
+            <h2><a style="cursor:none">Pop</a></h2>
+            <a asp-controller="search" asp-action="detail" asp-route-category="Pop">Show all</a>
+        </div>
+        <div class="main-cards">
+            @Html.Partial("_AlbumCardPV", new HomeVM {Category = "Pop", Albums = Model.Albums})
+        </div>
+    </div>
+</section>
+
+<section id="cards-area">
+    <div class="content">
+        <div class="throwback">
+            <h2><a style="cursor:none">Jazz</a></h2>
+            <a asp-controller="search" asp-action="detail" asp-route-category="Jazz">Show all</a>
+        </div>
+        <div class="main-cards">
+            @Html.Partial("_AlbumCardPV", new HomeVM {Category = "Jazz", Albums = Model.Albums})
+        </div>
+    </div>
+</section>
+
+<section id="cards-area">
+    <div class="content">
+        <div class="throwback">
+            <h2><a style="cursor:none">Dance/Electronic</a></h2>
+            <a asp-controller="search" asp-action="detail" asp-route-category="Dance/Electronic">Show all</a>
+        </div>
+        <div class="main-cards">
+            @Html.Partial("_AlbumCardPV", new HomeVM {Category = "Dance/Electronic", Albums = Model.Albums})
+        </div>
+    </div>
+</section>
+
+<section id="cards-area">
+    <div class="content">
+        <div class="throwback">
+            <h2><a style="cursor:none">Hip/Hop Rap</a></h2>
+            <a asp-controller="search" asp-action="detail" asp-route-category="Hip-Hop/Rap">Show all</a>
+        </div>
+        <div class="main-cards">
+            @Html.Partial("_AlbumCardPV", new HomeVM {Category = "Hip-Hop/Rap", Albums = Model.Albums})
+        </div>
+    </div>
+</section>
+
+

@@ -1,0 +1,33 @@
+﻿@model Album
+
+
+<h2>Detail</h2>
+
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <img src="~/assets/images/@Model.ImageUrl" width="150" height="150" style="    margin-bottom: 20px;" />
+                <h2  class="card-title"><span>Name: </span> @Model.Name</h2>
+                <h2 class="card-title"><span>Genre: </span>@Model.Category.Name</h2>
+                <h2 class="card-title"><Span>Artist: </Span>@Model.Artist.FullName</h2>
+                <h2 class="card-title"><span>Release Date: </span>@Model.CreateDate.ToString("dd MMMM yyyy")</h2>
+                <h2>Songs</h2>
+                @if (Model.Songs != null)
+                {
+                    @foreach (var song in Model.Songs)
+                    {
+                        <li style="font-size: 14px; margin-bottom: 5px;list-style-type: decimal;">@song.Name</li>
+                    }
+                }
+                else
+                {
+                    <li style="font-size: 14px; margin-bottom: 5px;list-style-type: none;">0</li>
+                }
+                
+                <a asp-action="index" class="btn btn-dark">Back</a>
+            </div>
+        </div>
+    </div>
+</div>
+

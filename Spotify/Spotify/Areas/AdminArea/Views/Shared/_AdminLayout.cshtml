@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Spotify Admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="~/admin/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/admin/vendors/base/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <link rel="stylesheet" href="~/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="~/admin/css/style.css">
+    <!-- endinject -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container-scroller">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <div class="navbar-brand-wrapper d-flex justify-content-center">
+                <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
+                    <a class="navbar-brand brand-logo" href="index.html"><img src="~/assets/images/SpotifyLogoBlack.png" style= "width:101px" alt="logo" /></a>
+                    <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+                        <span class="mdi mdi-sort-variant"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+      
+                <ul class="navbar-nav navbar-nav-right">
+                   
+       
+                    <li class="nav-item nav-profile ">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+                            <span class="nav-profile-name">@User.Identity.Name</span>
+                        </a>
+                    </li>
+                </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+                    <span class="mdi mdi-menu"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial:partials/_sidebar.html -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar" style="background-color:#242424">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="adminarea" asp-controller="dashboard" asp-action="index">
+                            <h2>
+                                <span style="color:white" class="menu-title">Dashboard</span>
+                            </h2>
+                        </a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" asp-area="adminarea" asp-controller="song" asp-action="index">
+                            <h2>
+                                <span style="color:white" class="menu-title">Song</span>
+                            </h2>
+                        </a>
+                    </li>
+                  <li class="nav-item">
+                        <a class="nav-link" asp-area="adminarea" asp-controller="album" asp-action="index">
+                            <h2>
+                                <span style="color:white" class="menu-title">Album</span>
+                            </h2>
+                        </a>
+                    </li>
+                   <li class="nav-item">
+                        <a class="nav-link" asp-area="adminarea" asp-controller="artist" asp-action="index">
+                            <h2>
+                                <span style="color:white" class="menu-title">Artist</span>
+                            </h2>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="adminarea" asp-controller="position" asp-action="index">
+                            <h2>
+                                <span style="color:white" class="menu-title">Position</span>
+                            </h2>
+                        </a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" asp-area="adminarea" asp-controller="category" asp-action="index">
+                            <h2>
+                                <span style="color:white" class="menu-title">Category</span>
+                            </h2>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="adminarea" asp-controller="user" asp-action="index">
+                            <h2>
+                                <span style="color:white" class="menu-title">Users</span>
+                            </h2>
+                        </a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" asp-area="adminarea" asp-controller="role" asp-action="index">
+                            <h2>
+                                <span style="color:white" class="menu-title">Roles</span>
+                            </h2>
+                        </a>
+                    </li>
+
+             </ul>
+            </nav>
+            <!-- partial -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    @RenderBody()
+                </div>
+                <!-- content-wrapper ends -->
+                <!-- partial:partials/_footer.html -->
+            
+                <!-- partial -->
+            </div>
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="~/admin/vendors/base/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page-->
+    <script src="~/admin/vendors/chart.js/Chart.min.js"></script>
+    <script src="~/admin/vendors/datatables.net/jquery.dataTables.js"></script>
+    <script src="~/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+    <!-- End plugin js for this page-->
+    <!-- inject:js -->
+    <script src="~/admin/js/off-canvas.js"></script>
+    <script src="~/admin/js/hoverable-collapse.js"></script>
+    <script src="~/admin/js/template.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="~/admin/js/dashboard.js"></script>
+    <script src="~/admin/js/data-table.js"></script>
+    <script src="~/admin/js/jquery.dataTables.js"></script>
+    <script src="~/admin/js/dataTables.bootstrap4.js"></script>
+    @RenderSection("Scripts",false);
+    <!-- End custom js for this page-->
+</body>
+
+</html>
+
+

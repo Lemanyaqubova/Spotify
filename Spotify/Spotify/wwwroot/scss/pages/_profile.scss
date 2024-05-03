@@ -1,0 +1,299 @@
+#main-side {
+  // overflow-y: scroll;
+  // overflow-x: hidden;
+  // height: 500px;
+
+  #spotify-header {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    .content{
+      #dynamic-text{
+        width: 100%;
+        font-size: 23px;
+        color: white;
+        margin-left: 8px;
+        
+      }
+    }
+  }
+  #profile-area {
+    background: linear-gradient(transparent 0, rgba(0, 0, 0, 0.5) 100%),
+      rgb(83, 83, 83);
+    .content {
+      @include container;
+      padding: 23.5px;
+      display: flex;
+      align-items: center;
+      .left-side {
+        .account {
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          border-radius: 50%;
+          width: 226px;
+          height: 226px;
+          margin-right: 23px;
+          background-color: #282828;
+          border: none;
+          position: relative;
+          @include for-size(tablet) {
+            width: 188px;
+            height: 188px;
+          }
+          @include for-size(mobile){
+            width: 140px;
+            height: 140px;
+          }
+          &:hover {
+            .choose-photo {
+              opacity: 1;
+            }
+            .user {
+              display: none;
+            }
+          }
+          i {
+            font-size: 63px;
+            color: #b3b3b3;
+          }
+          .choose-photo {
+            position: absolute;
+            font-family: "Circular";
+            top: 82px;
+            left: 60px;
+            width: 101px;
+            height: 74px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            color: white;
+            // display: none;
+            // visibility: hidden;
+            opacity: 0;
+            @include for-size(tablet) {
+              top: 65px;
+              left: 46px;
+            }
+            @include for-size(mobile){
+              top: 34px;
+              left: 20px;
+            }
+            i {
+              font-size: 40px;
+              color: white;
+            }
+            span {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+      .right-side {
+        font-size: 15px;
+        color: white;
+        
+        h1 {
+          font-size: 80px;
+          @include for-size(tablet) {
+            font-size: 110px;
+          }
+          @include for-size(mobile) {
+            font-size: 40px;
+          }
+        }
+        p {
+          font-size: 15px;
+          @include for-size(mobile){
+            display: none;
+          }
+        }
+        .balance{
+          @include for-size(mobile){
+            display: inline;
+            display: flex
+          }
+        }
+        a{
+          text-decoration: none;
+          color: rgb(157, 157, 157);
+          transition: 0.2s;
+          #topUp{
+            border: none;
+            background-color: transparent;
+            color: rgb(157, 157, 157);
+          }
+          &:hover{
+            color: white;
+            
+            #topUp{
+              color: white;
+            }
+          }
+        }
+        
+     
+      }
+    }
+  }
+  #top-music {
+    .context {
+      @include container;
+      padding: 23.5px;
+      .top-music-header {
+        h2 {
+          color: white;
+        }
+        p {
+          color: rgb(157, 157, 157);
+          font-size: 13px;
+          font-size: 13px;
+          margin-top: 6px;
+        }
+      }
+      .account-music {
+        margin-top: 16px;
+        .music-row {
+          padding: 16px 16px;
+          height: 56px;
+          width: 100%;
+          display: flex;
+          border-radius: 4px;
+          justify-content: space-between;
+          &:hover {
+            .right-side #wishlist {
+              display: inline;
+            }
+            .right-side #remove {
+              display: inline;
+            }
+            .left-side .count button {
+              display: inline;
+            }
+            .left-side .count p {
+              display: none;
+            }
+            background-color: rgb(46, 46, 46);
+            .right-side .albom-name {
+              color: white;
+            }
+            .names .artist-name {
+              color: white;
+            }
+          }
+
+          .left-side {
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            .count {
+              color: rgb(157, 157, 157);
+              position: relative;
+              width: 7px;
+              height: 23px;
+              .play {
+                background-color: transparent;
+                border: none;
+                font-size: 13px;
+                color: white;
+                position: absolute;
+                top: 3px;
+                 display: none;
+              
+               
+              }
+            }
+            .music-info {
+              display: flex;
+              width: 203.75px;
+              height: 41.33px;
+
+              img {
+                width: 40px;
+                height: 40px;
+                margin-right: 12px;
+              }
+              .names {
+                .music-name {
+                  color: white;
+                }
+                .artist-name {
+                  color: rgb(157, 157, 157);
+                  font-size: 13px;
+                  font-family: "Poppins";
+                  cursor: pointer;
+                  &:hover {
+                    text-decoration: underline;
+                    color: white;
+                  }
+                }
+              }
+            }
+          }
+          .right-side {
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 420px;
+            justify-content: space-between;
+            // margin-top: 75px;
+            @include for-size(tablet) {
+              width: 290px;
+            }
+            @include for-size(mobile){
+              display: none;
+            } 
+            .albom-name {
+              color: rgb(157, 157, 157);
+              font-size: 13px;
+              cursor: pointer;
+              &:hover {
+                text-decoration: underline;
+              }
+              @include for-size(mobile){
+                display: none;
+              }
+            }
+            #wishlist {
+              color: rgb(157, 157, 157);
+              border: none;
+              background-color: transparent;
+              margin-left: 205px;
+              display: none;
+              cursor: pointer;
+              @include for-size(tablet) {
+                margin-left: 100px;
+              }
+              &.active{
+                color: #1ed760;
+              }
+            }
+            .music-time {
+              @include for-size(mobile){
+                display: none;
+              }
+              color: rgb(157, 157, 157);
+              margin-right: 12px;
+              width: 46px;
+              height: 19.33px;
+              @include for-size(tablet) {
+                margin: 0;
+              }
+              p {
+                font-size: 0.875rem;
+              }
+
+            }
+            #remove{
+              position: absolute;
+              top: 3px;
+              right: -6px;
+              border: none;
+              background-color: transparent;
+              color: rgb(157, 157, 157);
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

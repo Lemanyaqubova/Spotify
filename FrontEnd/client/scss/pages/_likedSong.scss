@@ -1,0 +1,282 @@
+#profileliked-area {
+  .content {
+    @include container;
+    padding: 23.5px;
+    display: flex;
+    align-items: center;
+    .left-side {
+      @include for-size(mobile) {
+        display: none;
+      }
+      .liked-songs {
+        border: none;
+        background: transparent;
+        width: 225px;
+        height: 225px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        img {
+          width: 100%;
+
+          border-radius: 4px;
+        }
+      }
+    }
+    .right-side {
+      margin-left: 25px;
+      font-size: 15px;
+      color: white;
+      @include for-size(tablet) {
+        margin-left: 22px;
+      }
+      @include for-size(mobile) {
+        width: 100%;
+      }
+      h1 {
+        font-size: 80px;
+        @include for-size(tablet) {
+          font-size: 60px;
+        }
+        @include for-size(mobile) {
+          font-size: 40px;
+        }
+      }
+      p {
+        font-size: 15px;
+        @include for-size(mobile) {
+          display: none;
+        }
+      }
+      span {
+        @include for-size(mobile) {
+            color: rgb(157, 157, 157);
+        }
+      }
+      a {
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+        @include for-size(mobile) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+#empty-area {
+  background-color: rgb(28, 21, 56);
+  .content {
+    padding: 0 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: white;
+    padding: 60px 0;
+    h1 {
+      font-size: 30px;
+      @include for-size(mobile) {
+        font-size: 23px;
+      }
+    }
+    p {
+      font-family: "Poppins";
+      font-size: 14px;
+      @include for-size(mobile) {
+        font-size: 11px;
+      }
+    }
+
+    button {
+      width: 143px;
+      height: 48px;
+      border: 0px;
+      border-radius: 9999px;
+      cursor: pointer;
+      background-color: white;
+
+      a {
+        color: black;
+        font-family: "Circular";
+        text-decoration: none;
+        font-size: 16px;
+      }
+    }
+  }
+}
+#top-music {
+  .context {
+    .liked-music-header {
+      display: flex;
+      justify-content: space-between;
+      color: rgb(157, 157, 158);
+      border-bottom: 1px solid rgb(157, 157, 158);
+      padding: 0 49px 9px 16px;
+      font-size: 13px;
+      .left-side {
+        display: flex;
+        width: 56px;
+        justify-content: space-between;
+      }
+      .right-side {
+        width: 373px;
+        display: flex;
+        justify-content: space-between;
+      
+        @include for-size(tablet){
+            width: 245px;
+        }
+        @include for-size(mobile){
+            display: none;
+        }
+      }
+    }
+    .liked-music {
+        margin-top: 16px;
+        .music-row {
+          padding: 16px 16px;
+          height: 56px;
+          width: 100%;
+          display: flex;
+          border-radius: 4px;
+          justify-content: space-between;
+          &:hover {
+           
+            .left-side .count button {
+              display: inline;
+            }
+            .left-side .count p {
+              display: none;
+            }
+            background-color: rgb(46, 46, 46);
+            .right-side .albom-name {
+              color: white;
+            }
+            .names .artist-name {
+              color: white;
+            }
+            .right-side .dlt-wish {
+              display: inline !important;
+            }
+          }
+
+          .left-side {
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            .count {
+              color: rgb(157, 157, 157);
+              position: relative;
+              width: 7px;
+              height: 23px;
+              button {
+                background-color: transparent;
+                border: none;
+                font-size: 13px;
+                color: white;
+                position: absolute;
+                top: 3px;
+                display: none;
+              }
+            }
+            .music-info {
+              display: flex;
+              width: 203.75px;
+              height: 41.33px;
+
+              img {
+                width: 40px;
+                height: 40px;
+                margin-right: 12px;
+              }
+              .names {
+                .music-name {
+                  color: white;
+                }
+                .artist-name {
+                  color: rgb(157, 157, 157);
+                  font-size: 13px;
+                  font-family: "Poppins";
+                  cursor: pointer;
+                  &:hover {
+                    text-decoration: underline;
+                    color: white;
+                  }
+                }
+              }
+            }
+          }
+          .right-side {
+            display: flex;
+            align-items: center;
+            width: 420px;
+            justify-content: space-between;
+            // margin-top: 75px;
+            @include for-size(tablet) {
+              width: 290px;
+            }
+            @include for-size(mobile){
+              display: none;
+            } 
+            .albom-name {
+              color: rgb(157, 157, 157);
+              font-size: 13px;
+              width: 120px;
+              cursor: pointer;
+              &:hover {
+                text-decoration: underline;
+              }
+              @include for-size(mobile){
+                display: none;
+              }
+            }
+            .add-date{
+              color: rgb(157, 157, 157);
+              font-size: 13px;
+              cursor: pointer;
+              position: relative;
+              width: 116px;
+
+             .dlt-wish{
+                position: absolute;
+                color: rgb(157, 157, 157);
+                border: none;
+                background-color: transparent;
+                margin-left: 205px;
+                top: 0px;
+                right: -46px;
+                cursor: pointer;
+                display: none;
+                    &.active{
+                color: #1ed760;
+              }
+                @include for-size(tablet) {
+                  margin-left: 100px;
+                  right: -39px;
+                }
+            }
+          
+            }
+            .music-time {
+              @include for-size(mobile){
+                display: none;
+              }
+              color: rgb(157, 157, 157);
+              margin-right: 12px;
+              width: 46px;
+              height: 19.33px;
+              @include for-size(tablet) {
+                margin: 0;
+              }
+              p {
+                font-size: 0.875rem;
+              }
+            }
+          }
+        }
+      }
+  }
+}

@@ -1,0 +1,74 @@
+﻿@model List<AppUser>
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Users Table</h4>
+                @*     @if (User.IsInRole("Moderator"))
+                    {
+                        <a asp-action="create" class="btn btn-success">Create Users</a>
+                    }
+ *@
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>FullName</th>
+                                    <th>UserName</th>
+                                    <th>IsActive</th>
+                                    <th>Setting</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.Fullname</td>
+                                        <td>@item.UserName</td>
+                                        <td>
+                                            <form asp-action="SetStatus" method="post" asp-route-id="@item.Id" enctype="multipart/form-data">
+                                                @if (item.IsActive)
+                                                {
+                                                    <button style="border: none; background: none;"><a class="text-success">IsActive</a></button>
+                                                }
+                                                else
+                                                {
+                                                    <button style="border: none; background: none;"><a class="text-danger">DeActive</a></button>
+                                                }
+                                            </form>
+                                        </td>
+
+                                        <td>
+                                            <a asp-action="detail" asp-route-id="@item.Id" class="btn btn-outline-primary">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            @*  <a asp-action="edit" asp-route-id="@item.Id" class="btn btn-outline-warning">
+                                        <i class="fa-solid fa-pen-to-square"></i>
+                                        </a>*@
+                                            @if (User.IsInRole("Moderator"))
+                                            {
+                                                <a asp-action="editRole" asp-route-id="@item.Id" class="btn btn-outline-warning">
+                                                    <i class="fa-solid fa-pen-to-square"></i>
+                                                </a>
+                                                <a asp-action="delete" asp-route-id="@item.Id" class="btn btn-outline-danger">
+                                                    <i class="mdi mdi-delete"></i>
+                                                </a>
+
+                                            }
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

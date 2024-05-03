@@ -1,0 +1,15 @@
+﻿@model SidebarVM
+
+<a style="text-decoration:none" asp-controller="LikedSong" asp-action="Index">
+    <div class="sidebar-playlist-cards">
+        <div class="card">
+            <div class="left-side">
+                <img src="../../assets/images/liked-songs-300.png" alt="">
+            </div>
+            <div class="right-side">
+                <p class="playlist-name">Liked Songs</p>
+                <p>Playlist - <span class="song_count">@Model.SongCount</span></p>
+            </div>
+        </div>
+    </div>
+</a>

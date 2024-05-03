@@ -1,0 +1,197 @@
+#top-music{
+    .liked-music{
+        .music-row{
+            &:hover{
+                #remove{
+                    display: inline !important;
+                }
+            }
+            .right-side{
+                position: relative;
+                #remove{
+                    position: absolute;
+                    border: none;
+                    background-color: transparent;
+                    color: rgb(157, 157, 157);
+                   display: none;
+                    top: 3px;
+                    right: -3px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}
+#search-area-playlist {
+  .content {
+    @include container;
+    padding: 23.5px;
+    h2 {
+      color: white;
+      margin-bottom: 16px;
+    }
+    .search-area {
+      width: 365px;
+      height: 40px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #242424;
+      border: 2px solid transparent;
+      border-radius: 4px;
+      color: #fff;
+
+      padding: 0 103px 0 17px;
+      gap: 11px;
+      position: relative;
+      &:focus-within {
+        border-color: white;
+      }
+      @include for-size(mobile) {
+        width: 100%;
+        padding: 0 103px 0 46px;
+      }
+      input {
+        outline: none;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-family: "Circular";
+      }
+      i {
+        color: rgb(160, 160, 160);
+      }
+      .delete {
+        position: absolute;
+        right: 17px;
+        display: none;
+      }
+    }
+    .search-result {
+      margin-top: 60px;
+      .music-row {
+        padding: 16px 16px;
+        height: 56px;
+        width: 100%;
+        display: flex;
+        border-radius: 4px;
+        justify-content: space-between;
+        &:hover {
+          .right-side button {
+            display: inline;
+          }
+          .left-side .count button {
+            display: inline;
+          }
+          .left-side .count p {
+            display: none;
+          }
+          background-color: rgb(46, 46, 46);
+          .right-side .albom-name {
+            color: white;
+          }
+          .names .artist-name {
+            color: white;
+          }
+        }
+
+        .left-side {
+          display: flex;
+          align-items: center;
+          .count {
+            color: rgb(157, 157, 157);
+            position: relative;
+            width: 7px;
+            height: 23px;
+            .play {
+              background-color: transparent;
+              border: none;
+              font-size: 13px;
+              color: white;
+              position: absolute;
+              top: 3px;
+              display: none;
+            }
+          }
+          .music-info {
+            display: flex;
+            justify-content: end;
+            width: 203.75px;
+            height: 41.33px;
+
+            img {
+              width: 40px;
+              height: 40px;
+              margin-right: 12px;
+            }
+            .names {
+              .music-name {
+                color: white;
+              }
+              .artist-name {
+                color: rgb(157, 157, 157);
+                font-size: 13px;
+                font-family: "Poppins";
+                cursor: pointer;
+                &:hover {
+                  text-decoration: underline;
+                  color: white;
+                }
+              }
+            }
+          }
+        }
+        .right-side {
+          display: flex;
+          align-items: center;
+          width: 420px;
+          justify-content: space-between;
+          // margin-top: 75px;
+          @include for-size(tablet) {
+            width: 290px;
+          }
+          @include for-size(mobile) {
+            display: none;
+          }
+          .albom-name {
+            color: rgb(157, 157, 157);
+            font-size: 13px;
+            cursor: pointer;
+            &:hover {
+              text-decoration: underline;
+            }
+            @include for-size(mobile) {
+              display: none;
+            }
+          }
+          #add {
+            width: 59px;
+            height: 32px;
+          border-radius: 999px;
+           border: 1px solid  rgb(157, 157, 157);;
+            background-color: transparent;
+            margin-left: 205px;
+         
+            cursor: pointer;
+            @include for-size(tablet) {
+              margin-left: 100px;
+            }
+            &:hover {
+                transform: scale(0.95);
+                transition: 0.3s;
+                border: 1.5px solid white;
+              }
+          
+          span{
+            font-family: 'Circular';
+            color: white;
+          }
+          }
+        
+        }
+      }
+    }
+  }
+}

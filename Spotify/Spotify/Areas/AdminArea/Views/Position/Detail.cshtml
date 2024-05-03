@@ -1,0 +1,28 @@
+﻿@model PositionDetailVM
+
+<h2>Detail</h2>
+
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title"><span>Name: </span>@Model.PositionName</h2>
+                <h3>Artists</h3>
+                <ul>
+                    @if (Model.ArtistFullNames != null && Model.ArtistFullNames.Any())
+                    {
+                        foreach (var artistFullName in Model.ArtistFullNames)
+                        {
+                            <li style="font-size:14px; margin-bottom:5px; list-style-type:decimal">@artistFullName</li>
+                        }
+                    }
+                    else
+                    {
+                        <li style="font-size: 14px; margin-bottom: 5px; list-style-type: none;">No artists found.</li>
+                    }
+                </ul>
+                <a asp-action="Index" class="btn btn-dark">Back</a>
+            </div>
+        </div>
+    </div>
+</div>

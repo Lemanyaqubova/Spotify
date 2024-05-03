@@ -1,0 +1,36 @@
+﻿@model ArtistCreateVM
+
+
+<div class="container-fluid mx-5 my-3">
+    <h3>Artist Create</h3>
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div>
+            <label class="my-3" asp-for="Photo"></label>
+            <input class="form-control" asp-for="Photo">
+            <span class="text-danger my-1" asp-validation-for="Photo"></span>
+        </div>
+        <div>
+            <label class="my-3" asp-for="AboutImg">About photo</label>
+            <input class="form-control" asp-for="AboutImg">
+            <span class="text-danger my-1" asp-validation-for="AboutImg"></span>
+        </div>
+        <div>
+            <label class="my-3" asp-for="FullName"></label>
+            <input class="form-control" asp-for="FullName">
+            <span class="text-danger my-1" asp-validation-for="FullName"></span>
+        </div>
+        <div>
+            <label asp-for="PositionIds"></label>
+            <select asp-for="PositionIds" class="form-select" asp-items="@(new SelectList(Model.Positions,"Id","Name"))">
+            </select>
+            <div>
+                <span asp-validation-for="Positions">
+                </span>
+            </div>
+        </div>
+
+      
+        <a class="btn btn-danger my-3" style="color: white;" asp-controller="artist" asp-action="Index">Back</a>
+        <button type="submit" class="btn btn-primary my-3" style="color: white;">Create</button>
+    </form>
+</div>

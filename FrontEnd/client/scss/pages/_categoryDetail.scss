@@ -1,0 +1,36 @@
+#detail-area {
+  .left-side {
+    display: flex;
+    align-items: center;
+    @include for-size(mobile){
+        height: 175px !important;
+    }
+    h2 {
+      font-size: 57px;
+      color: white;
+    }
+  }
+}
+#top-music {
+  .context {
+    .throwback {
+      a {
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        &:hover {
+          text-decoration: underline;
+        }
+        
+      }
+    }
+    .playlist-area {
+        .all-playlist{
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 23px;
+        }
+      }
+  }
+}

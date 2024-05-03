@@ -1,0 +1,189 @@
+#top-music {
+    .context {
+      .album-music-header{
+        display: flex;
+        justify-content: space-between;
+        color: rgb(157, 157, 158);
+        border-bottom: 1px solid rgb(157, 157, 158);
+        padding: 0 49px 9px 16px;
+        font-size: 13px;
+        .left-side {
+          display: flex;
+          width: 56px;
+          justify-content: space-between;
+        }
+        .right-side {
+          width: 373px;
+          display: flex;
+          justify-content: end;
+        
+          @include for-size(tablet){
+              width: 245px;
+          }
+          @include for-size(mobile){
+              display: none;
+          }
+        }
+      }
+      .album-music {
+          margin-top: 16px;
+          .music-row {
+            padding: 16px 16px;
+            height: 56px;
+            width: 100%;
+            display: flex;
+            border-radius: 4px;
+            justify-content: space-between;
+            &:hover {
+             
+              .left-side .count button {
+                display: inline;
+              }
+              .left-side .count p {
+                display: none;
+              }
+              background-color: rgb(46, 46, 46);
+              .right-side .albom-name {
+                color: white;
+              }
+              .names .artist-name {
+                color: white;
+              }
+              .right-side #wishlist {
+                display: inline !important;
+              }
+            }
+  
+            .left-side {
+              display: flex;
+              align-items: center;
+              gap: 13px;
+              .count {
+                color: rgb(157, 157, 157);
+                position: relative;
+                width: 7px;
+                height: 23px;
+                button {
+                  background-color: transparent;
+                  border: none;
+                  font-size: 13px;
+                  color: white;
+                  position: absolute;
+                  top: 3px;
+                  display: none;
+                }
+              }
+              .music-info {
+                display: flex;
+                width: 203.75px;
+                height: 41.33px;
+  
+                img {
+                  width: 40px;
+                  height: 40px;
+                  margin-right: 12px;
+                }
+                .names {
+                  .music-name {
+                    color: white;
+                  }
+                  .artist-name {
+                    color: rgb(157, 157, 157);
+                    font-size: 13px;
+                    font-family: "Poppins";
+                    cursor: pointer;
+                    &:hover {
+                      text-decoration: underline;
+                      color: white;
+                    }
+                  }
+                }
+              }
+            }
+            .right-side {
+              display: flex;
+              align-items: center;
+              width: 420px;
+              justify-content: end;
+              // margin-top: 75px;
+              @include for-size(tablet) {
+                width: 290px;
+              }
+              @include for-size(mobile){
+                display: none;
+              } 
+              .albom-name {
+                color: rgb(157, 157, 157);
+                font-size: 13px;
+                cursor: pointer;
+                &:hover {
+                  text-decoration: underline;
+                }
+                @include for-size(mobile){
+                  display: none;
+                }
+              }
+              .add-date{
+                color: rgb(157, 157, 157);
+                font-size: 13px;
+                cursor: pointer;
+                position: relative;
+                // width: 158px;
+                #wishlist {
+                  position: absolute;
+                  color: rgb(157, 157, 157);
+                  border: none;
+                  background-color: transparent;
+                  margin-left: 205px;
+                  top: -8px;
+                  right: 21px;
+                  cursor: pointer;
+                  display: none;
+                      &.active{
+                  color: #1ed760;
+                }
+                  @include for-size(tablet) {
+                    margin-left: 100px;
+                    right: -39px;
+                  }
+              }
+            
+              }
+              .music-time {
+                @include for-size(mobile){
+                  display: none;
+                }
+                color: rgb(157, 157, 157);
+                margin-right: 12px;
+                width: 46px;
+                height: 19.33px;
+                @include for-size(tablet) {
+                  margin: 0;
+                }
+                p {
+                  font-size: 0.875rem;
+                }
+              }
+            }
+          }
+        }
+        #loadMore{
+          
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 35px;
+    font-family: 'Circular';
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    &:hover{
+      color: #9d9d9d;
+      transition: 0.3s;
+    }
+        }
+    }
+  }

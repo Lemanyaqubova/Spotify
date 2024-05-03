@@ -1,0 +1,160 @@
+#footer {
+  .content {
+    margin-top: 40px;
+    display: flex;
+    // height: 250px;
+    padding: 8px 16px 40px;
+    .all-footer {
+      width: 100%;
+      justify-content: space-between;
+      display: flex;
+      flex-direction: column;
+      .footer-info {
+        padding-left: 32px;
+        padding-right: 32px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        @include for-size(tablet) {
+          flex-wrap: wrap;
+        }
+        @include for-size(mobile) {
+         flex-direction: column;
+        }
+        h3 {
+          color: white;
+          font-size: 16px;
+        }
+        .companies {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 32px;
+          margin-right: 24px;
+          @include for-size(tablet) {
+            width: 200px;
+          }
+          h3 {
+            padding-bottom: 8px;
+          }
+          a {
+            padding-bottom: 8px;
+            color: gray;
+            text-decoration: none;
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 700;
+            &:hover{
+              text-decoration: underline;
+              color: white  ;
+            }
+          }
+        }
+        .communities {
+          display: flex;
+          flex-direction: column;
+          @include for-size(tablet) {
+            // width: 200px;
+            margin-right: 84px;
+          }
+          h3 {
+            padding-bottom: 8px;
+          }
+          a {
+            padding-bottom: 8px;
+            color: gray;
+            text-decoration: none;
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 700;
+            &:hover{
+              text-decoration: underline;
+              color: white;
+            }
+          }
+        }
+        .useful {
+          display: flex;
+          flex-direction: column;
+          color: gray;
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 700;
+          @include for-size(tablet) {
+            width: 100%;
+            padding-top: 23px;
+          }
+          h3 {
+            padding-bottom: 8px;
+          }
+          div{
+            padding-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+          }
+          // a {
+          //   padding-bottom: 8px;
+          //   color: gray;
+          //   text-decoration: none;
+          //   font-family: Poppins;
+          //   font-size: 14px;
+          //   font-weight: 700;
+          // }
+        }
+        .socialMedia-icons {
+          width: 152px;
+          display: flex;
+          justify-content: space-between;
+          @include for-size(tablet) {
+            padding-top: 23px;
+          }
+          button {
+            width: 40px;
+            height: 40px;
+            background-color: rgb(41, 41, 41);
+            border: none;
+            border-radius: 50%;
+            font-size: 19px;
+            color: grey;
+            cursor: pointer;
+          }
+          a {
+            color: white;
+            i {
+              width: 16px;
+              height: 16px;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .footer-divide {
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 20px;
+        height: 32px;
+        padding-bottom: 40px;
+        @include for-size(tablet) {
+          padding-top: 45px;
+          padding-bottom: 35px;
+          margin-bottom: 40px;
+        }
+        @include for-size(mobile) {
+          margin-bottom: 40px;
+        }
+        .dvide {
+          height: 1px;
+          background: gray;
+          p {
+            display: inline-block;
+            color: gray;
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 700;
+            margin-top: 14px;
+          }
+        }
+      }
+    }
+  }
+}

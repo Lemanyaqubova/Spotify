@@ -1,0 +1,64 @@
+// .modal-container {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   min-height: 100vh;
+//   background-color: rgba(0, 0, 0, 0.5);
+//   place-items: center;
+//   // display: none;
+//   .modal {
+//     width: 350px;
+//     height: 170px;
+//     padding: 25px;
+//     background-color: white;
+//     border-radius: 6px;
+//     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+//     position: relative;
+//     p {
+//       font-size: 19px;
+//       margin-bottom: 42px;
+//     }
+
+//     .buttons {
+//       .close-btn {
+//         width: 40%;
+//         height: 32px;
+//         background-color: transparent;
+//         border: none;
+//         font-family: "Circular";
+//         font-size: 19px;
+//         &:hover {
+//           transform: scale(0.95);
+//           transition: 0.3s;
+//         }
+//       }
+//       #delete {
+//         background-color: #1ed760;
+//         border: none;
+//         width: 36%;
+//         text-align: center;
+//         height: 41px;
+//         font-family: "Circular";
+//         font-size: 17px;
+//         border-radius: 9999px;
+//         &:hover {
+//           transform: scale(0.95);
+//           transition: 0.3s;
+//         }
+//       }
+//     }
+//   }
+// }
+
+.swal2-confirm,
+.swal2-cancel {
+  color: black !important;
+  font-family: "Circular" !important;
+  font-size: 17px !important;
+  border-radius: 9999px !important;
+}
+
+.swal2-title {
+  font-size: 25px;
+}

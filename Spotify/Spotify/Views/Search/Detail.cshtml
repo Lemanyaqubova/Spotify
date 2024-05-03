@@ -1,0 +1,70 @@
+﻿@model CategoryDetailVM
+
+<section id="navbar-mobile">
+    <div class="content">
+        <div class="left-side">
+            <p>Recently played</p>
+        </div>
+        <div class="right-side">
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a href="#">
+                    <button id="setting"><i class="fa-solid fa-gear"></i></button>
+                </a>
+            }
+            else
+            {
+                <a href="#">
+                    <button id="signUp">Sign up</button>
+                </a>
+                <a href="#">
+                    <button id="signIn">Log in</button>
+                </a> 
+            }
+          
+        </div>
+        <div class="setting-menu">
+        
+            <a asp-controller="profile" asp-action="index" asp-route-id="@User.Identity.IsAuthenticated ? User.Identity.Id : null">Profile</a>
+            <a asp-controller="account" asp-action="logout" id="logout"><span>Log Out</span></a>
+        </div>
+    </div>
+</section>
+<section id="detail-area">
+    <div class="content" style="height: 190px; background-color:@Model.Category.Color">
+        <div class="left-side">
+            <h2>@Model.Category.Name</h2>
+        </div>
+    </div>
+</section>
+<section id="top-music">
+    <div class="context">
+        <div class="throwback" style="margin-bottom: 18px;">
+            <h2>
+                <a href=""><span>@Model.Category.Name</span> Albums</a>
+            </h2>
+        </div>
+        <div class="playlist-area">
+            <div class="all-playlist">
+               @foreach (var album in Model.Albums)
+                {
+                    <div class="card-container">
+                        <div class="card">
+                           <a asp-controller="album" asp-action="detail" asp-route-id="@album.Id">
+                                <img src="~/assets/images/@album.ImageUrl" alt="">
+                           </a>
+                            <h3>@album.Name</h3>
+                            <p>@album.Artist.FullName</p>
+
+                            <button class="play">
+                                <i id="play-icon" class="fa-solid fa-play"></i>
+                                <i id="pause-icon" class="fa-solid fa-pause" style="display: none;"></i>
+                            </button>
+                        </div>
+                    </div>
+                }
+                
+            </div>
+        </div>
+    </div>
+</section>

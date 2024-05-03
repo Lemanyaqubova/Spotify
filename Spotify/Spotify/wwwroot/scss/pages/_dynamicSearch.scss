@@ -1,0 +1,453 @@
+#search-area {
+  .content {
+    @include container;
+    padding: 16px 21px;
+    .search-filter {
+      flex-wrap: wrap;
+      background: #121212;
+      height: 32px;
+      gap: 11px;
+      display: flex;
+      // padding-top: 7px;
+      position: sticky;
+      //   top: 64px;
+      z-index: 1;
+      // padding: 0 23px;
+      
+        
+        button {
+          height: 26px;
+          border-radius: 9999px;
+          border: none;
+          padding: 0px 12px;
+          background-color: rgb(42, 42, 42);
+      
+          &.active {
+              background-color: white;
+           
+            span {
+              color: black;
+            }
+          }
+          span {
+            font-family: "Circular";
+            color: white;
+          }
+        }
+      
+    }
+    .main-cards-search-result {
+      padding-top: 20px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      display: flex;
+      .left-side {
+       @include for-size(mobile){
+        width: 100%;
+       }
+        h2 {
+          color: white;
+          margin-bottom: 6px;
+          display: inline-block;
+        }
+        .left-boxs {
+          background: #181818;
+          width: 417px;
+          height: 214px;
+          padding: 25px;
+          border-radius: 8px;
+          transition: 0.3s;
+          position: relative;
+          // &:hover #play {
+          //   opacity: 1;
+          //   bottom: 43%;
+          // }
+          @include for-size(mobile) {
+            width: 100%;
+          }
+          &:hover {
+            background-color: rgb(36, 36, 36);
+
+            .play {
+              opacity: 1;
+              bottom: 50%;
+            }
+          }
+          img {
+            width: 92px;
+            height: 92px;
+          }
+          > a {
+            text-decoration: none;
+            color: white;
+            font-size: 28px;
+          }
+          .about-result {
+            font-size: 13px;
+            display: flex;
+            .type {
+              color: rgb(157, 157, 157);
+              &::after {
+                content: " • ";
+              }
+            }
+            a {
+              color: white;
+              text-decoration: none;
+            }
+          }
+          .play {
+            width: 48px;
+            height: 48px;
+            background-color: #1ed760;
+            border-radius: 50%;
+            position: absolute;
+            border: none;
+            bottom: 94px;
+            z-index: 3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            right: 23px;
+            opacity: 0;
+            // display: none;
+            //   transition: opacity 0.3s ease;
+            transition: bottom 0.5s;
+            transform: translateY(74px);
+            i {
+              font-size: 21px;
+            }
+          }
+        }
+      }
+      .right-side {
+        @include for-size(mobile){
+          width: 100%;
+         }
+         margin-top: 2px;
+        h2 {
+          color: white;
+          margin-bottom: 6px;
+        }
+        .song-cards {
+          width: 415px;
+          height: 224px;
+          @include for-size(mobile) {
+            width: 100%;
+          }
+
+          .song {
+            width: 415px;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 2px 11px;
+            border-radius: 4px;
+            @include for-size(mobile) {
+              width: 100%;
+            }
+            &:hover {
+              background-color: rgb(36, 36, 36);
+
+              .right-side #wishlist {
+                display: inline;
+              }
+            }
+
+            .left-side {
+              // width: 246px;
+              display: flex;
+              gap: 10px;
+              img {
+                width: 40px;
+                height: 40px;
+              }
+              .about-song {
+                display: flex;
+                flex-direction: column;
+
+                a:nth-child(1) {
+                  text-decoration: none;
+                  color: white;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                }
+                a:nth-child(2) {
+                  text-decoration: none;
+                  color: rgb(157, 157, 157);
+                  font-family: "Poppins";
+                  font-size: 14px;
+                  &:hover {
+                    text-decoration: underline;
+                  }
+                }
+              }
+            }
+            .right-side {
+              justify-content: center;
+              position: relative;
+              display: flex;
+              align-items: center;
+              gap: 15px;
+              #wishlist {
+                color: rgb(157, 157, 157);
+                border: none;
+                background-color: transparent;
+                // margin-left: 205px;
+                transition: 0.3s;
+                display: none;
+                cursor: pointer;
+                position: absolute;
+                right: 40px;
+                &.active {
+                  color: #1ed760;
+                }
+              }
+              .music-time {
+                color: rgb(157, 157, 157);
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+      .artist-area {
+        width: 100%;
+        margin-top: 22px;
+        h2 {
+          color: white;
+          margin-bottom: 6px;
+        }
+        .all-card {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 23px;
+          @include for-size(mobile) {
+            margin: auto;
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+            scroll-snap-type: x mandatory;
+          }
+          img {
+            border-radius: 50%;
+          }
+        }
+      }
+      .albom-area {
+        margin-top: 22px;
+        width: 100%;
+        h2 {
+          color: white;
+          margin-bottom: 6px;
+        }
+        .all-albom {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 23px;
+          @include for-size(mobile) {
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+            scroll-snap-type: x mandatory;
+          }
+        }
+      }
+      .playlist-area {
+        width: 100%;
+        margin-top: 22px;
+        h2 {
+          color: white;
+          margin-bottom: 6px;
+        }
+        .all-playlist {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 23px;
+          @include for-size(mobile) {
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+            scroll-snap-type: x mandatory;
+          }
+        }
+      }
+    }
+
+    .search-forSong-area {
+      .context {
+        margin-top: 27px;
+        .liked-music-header {
+          display: flex;
+          justify-content: space-between;
+          color: rgb(157, 157, 158);
+          border-bottom: 1px solid rgb(157, 157, 158);
+          padding: 0 49px 9px 16px;
+          font-size: 13px;
+          .left-side {
+            display: flex;
+            width: 56px;
+            justify-content: space-between;
+          }
+          .right-side {
+            width: 373px;
+            display: flex;
+          justify-content: space-between;
+            @include for-size(tablet) {
+              width: 245px;
+            }
+            @include for-size(mobile) {
+              display: none;
+            }
+          }
+        }
+        .liked-music {
+          margin-top: 16px;
+          .music-row {
+            padding: 16px 16px;
+            height: 56px;
+            width: 100%;
+            display: flex;
+            border-radius: 4px;
+            justify-content: space-between;
+            &:hover {
+              .left-side .count button {
+                display: inline;
+              }
+              .left-side .count p {
+                display: none;
+              }
+              background-color: rgb(46, 46, 46);
+              .right-side .albom-name {
+                color: white;
+              }
+            
+              .names .artist-name {
+                color: white;
+              }
+              .right-side #wishlist {
+                display: inline !important;
+              }
+            }
+
+            .left-side {
+              gap: 9px;
+              display: flex;
+              align-items: center;
+              .count {
+                color: rgb(157, 157, 157);
+                position: relative;
+                width: 7px;
+                height: 23px;
+                button {
+                  background-color: transparent;
+                  border: none;
+                  font-size: 13px;
+                  color: white;
+                  position: absolute;
+                  top: 3px;
+                  display: none;
+                }
+              }
+              .music-info {
+                display: flex;
+                justify-content: end;
+                // width: 203.75px;
+                height: 41.33px;
+
+                img {
+                  width: 40px;
+                  height: 40px;
+                  margin-right: 12px;
+                }
+                .names {
+                  .music-name {
+                    color: white;
+                  }
+                  .artist-name {
+                    color: rgb(157, 157, 157);
+                    font-size: 13px;
+                    font-family: "Poppins";
+                    cursor: pointer;
+                    &:hover {
+                      text-decoration: underline;
+                      color: white;
+                    }
+                  }
+                }
+              }
+            }
+            .right-side {
+              position: relative;
+              display: flex;
+              align-items: center;
+              width: 420px;
+              justify-content: space-between;
+              // margin-top: 75px;
+              @include for-size(tablet) {
+                width: 290px;
+              }
+              @include for-size(mobile) {
+                display: none;
+              }
+              .albom-name {
+                color: rgb(157, 157, 157);
+                font-size: 13px;
+                cursor: pointer;
+                &:hover {
+                  text-decoration: underline;
+                }
+                @include for-size(mobile) {
+                  display: none;
+                }
+              }
+              .add-date {
+                color: rgb(157, 157, 157);
+                font-size: 13px;
+                cursor: pointer;
+                position: relative;
+                // width: 158px;
+                #wishlist {
+                  position: absolute;
+                  color: rgb(157, 157, 157);
+                  border: none;
+                  background-color: transparent;
+                  margin-left: 205px;
+                  top: -9px;
+                  right: -95px;
+                  cursor: pointer;
+                  display: none;
+                  &.active {
+                    color: #1ed760;
+                  }
+                  @include for-size(tablet) {
+                    margin-left: 100px;
+                    right: -39px;
+                  }
+                }
+              }
+              .music-time {
+                @include for-size(mobile) {
+                  display: none;
+                }
+                color: rgb(157, 157, 157);
+                margin-right: 12px;
+                width: 46px;
+                height: 19.33px;
+                @include for-size(tablet) {
+                  margin: 0;
+                }
+                p {
+                  font-size: 0.875rem;
+                }
+              }
+             
+            }
+          }
+        }
+      }
+    }
+  }
+}

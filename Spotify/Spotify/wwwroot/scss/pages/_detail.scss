@@ -1,0 +1,177 @@
+#detail-area {
+  .content {
+    @include container;
+    padding: 23.5px;
+    display: flex;
+    align-items: center;
+    @include for-size(mobile) {
+      flex-wrap: wrap;
+    }
+    .left-side {
+      width: 226px;
+      height: 226px;
+      margin-right: 27px;
+      @include for-size(mobile) {
+        margin: auto;
+      }
+      img {
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+    }
+    .right-side {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      font-size: 15px;
+      gap: 5px;
+      margin-top: 73px;
+      @include for-size(tablet) {
+        margin-top: 47px;
+      }
+      @include for-size(mobile) {
+        margin-top: 18px;
+        padding-left: 20px;
+      }
+      > p {
+        font-family: "Poppins";
+        font-size: 13px;
+        @include for-size(tablet) {
+          display: none;
+        }
+      }
+      h1 {
+        font-size: 50px;
+        @include for-size(mobile) {
+          font-size: 30px;
+        }
+      }
+      .detail {
+        color: rgb(157, 157, 157);
+      }
+      .about-detail {
+        display: flex;
+        height: 24px;
+        font-size: 13px;
+        @include for-size(tablet) {
+          flex-wrap: wrap;
+          width: 200px;
+        }
+        .createdBy {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          cursor: pointer;
+          &:hover{
+            text-decoration: underline;
+          }
+          img {
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+          }
+        }
+        .likes-count {
+          // width: 100px;
+          display: flex;
+          align-items: center;
+
+          &::before {
+            content: "•";
+            margin: 0 4px;
+            @include for-size(mobile) {
+              content: "";
+            }
+          }
+          p {
+            font-family: "Poppins";
+          }
+        }
+        .song-time-count {
+          display: flex;
+          align-items: center;
+          &::before {
+            content: "•";
+            margin: 0 4px;
+            @include for-size(mobile) {
+              content: "";
+            }
+          }
+          > p:nth-child(1) {
+            font-family: "Poppins";
+            @include for-size(mobile) {
+              display: none;
+            }
+          }
+          p:nth-child(2) {
+            font-family: "Poppins";
+            color: rgb(157, 157, 157);
+            &::before {
+              content: "";
+
+              @include for-size(mobile) {
+                content: "•";
+                margin: 0 4px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+#top-music {
+  .context {
+    .action-bar {
+      position: relative;
+      height: 101px;
+      display: flex;
+      gap: 25px;
+      //   padding: 22px;
+      @include for-size(mobile) {
+        flex-direction: row-reverse;
+        justify-content: end;
+      }
+      .play {
+        cursor: pointer;
+        background-color: #1ed760;
+        border-radius: 50%;
+        border: none;
+        bottom: 94px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 56px;
+        height: 56px;
+
+        i {
+          font-size: 20px;
+        }
+        #pause-icon {
+          cursor: pointer;
+          top: 17px;
+          position: absolute;
+          bottom: 94px;
+          display: none;
+          i {
+            font-size: 20px;
+          }
+        }
+      }
+   
+      #wishlist {
+        background-color: transparent;
+        border: none;
+        width: 32px;
+        height: 32px;
+        padding: 12px 0;
+        color: rgb(157, 157, 157);
+        font-size: 32px;
+        cursor: pointer;
+        &.active {
+          color: #1ed760;
+        }
+      }
+    }
+  }
+}

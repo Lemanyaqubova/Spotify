@@ -1,0 +1,108 @@
+﻿@model SongUpdateVM
+
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title"></h4>
+                <p class="card-description">
+                    Update Song
+                </p>
+                <form method="post" class="forms-sample" enctype="multipart/form-data">
+                    <div class="main-image">
+                        <h3>Image</h3>
+                        <img width="200" src="~/assets/images/@Model.ImageUrl" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Photo"></label>
+                        <input asp-for="Photo" class="form-control" placeholder="Photo">
+                        <span class="text-danger" asp-validation-for="Photo"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Audio"></label>
+                        <input asp-for="Audio" class="form-control" placeholder="Audio">
+                        <span class="text-danger" asp-validation-for="Audio"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Name"></label>
+                        <input asp-for="Name" class="form-control" placeholder="Name">
+                        <span class="text-danger" asp-validation-for="Name"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Color"></label>
+                        <input asp-for="Color" class="form-control" placeholder="color">
+                        <span class="text-danger" asp-validation-for="Color"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CreateDate"></label>
+                        <input asp-for="CreateDate" class="form-control" placeholder="date">
+                        <span class="text-danger" asp-validation-for="CreateDate"></span>
+                    </div>
+                    <div>
+                        <label asp-for="CategoryId">Category</label>
+                        <select asp-for="CategoryId" class="form-select" asp-items="ViewBag.Category"></select>
+                        <div>
+                            <span asp-validation-for="CategoryId" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <label asp-for="ArtistsIds">Artists</label>
+                        <select id="ArtistIds" class="form-select" asp-for="ArtistsIds" asp-items="@ViewBag.Artists" multiple></select>
+                        <div>
+                            <span asp-validation-for="ArtistsIds" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <label asp-for="AlbumId">Album</label>
+                        <select id="albumsList" asp-for="AlbumId" class="form-select"></select>
+                        <span class="text-danger" asp-validation-for="AlbumId"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                    <button class="btn btn-light">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <partial name="_ValidationPartial"></partial>
+      }
+<script>
+    document.getElementById("ArtistIds").addEventListener("change", function () {
+        var artistId = this.value;
+        if (artistId) {
+            fetch(`/AdminArea/Song/GetAlbums?artistId=${artistId}`)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    var albumsList = document.getElementById("albumsList");
+                    if (albumsList) {
+                        albumsList.innerHTML = "";
+                        if (data.length > 0) {
+                            data.forEach(album => {
+                                var option = document.createElement("option");
+                                option.value = album.id;
+                                option.textContent = album.name;
+                                albumsList.appendChild(option);
+                            });
+                        } else {
+                            var option = document.createElement("option");
+                            option.textContent = "Artist does not have any albums.";
+                            albumsList.appendChild(option);
+                        }
+                    }
+                })
+                .catch(error => {
+                    console.error("Error:", error);
+                });
+
+        }
+    });
+
+</script>

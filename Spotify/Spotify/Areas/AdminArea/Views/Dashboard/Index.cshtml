@@ -1,0 +1,60 @@
+﻿@model DashboardVM
+<style>
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+        .table th,
+        .table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .table th {
+            background-color: #f8f9fa;
+            color: #333;
+            font-weight: 500;
+            display: flex;
+            gap: 10px;
+        }
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+</style>
+
+<table class="table">
+    <tbody>
+        <tr>
+            <th> <i class="fa-solid fa-list"></i>Category</th>
+            <td>@Model.Categories.Count</td>
+        </tr>
+        <tr>
+            <th><i class="fa-solid fa-image"></i>Albums</th>
+            <td>@Model.Albums.Count</td>
+        </tr>
+        <tr>
+            <th><i class="fa-solid fa-music"></i>Songs</th>
+            <td>@Model.Songs.Count</td>
+        </tr>
+        <tr>
+            <th><i class="fa-solid fa-user-tie"></i>Artists</th>
+            <td>@Model.Artists.Count</td>
+        </tr>
+        <tr>
+            <th><i class="fas fa-map-marker-alt"></i>Positions</th>
+            <td>@Model.Positions.Count</td>
+        </tr>
+        <tr>
+            <th><i class="fas fa-user"></i>Users</th>
+            <td>@Model.AppUsers.Count</td>
+        </tr>
+        <tr>
+            <th><i class="fas fa-user-lock"></i>Roles</th>
+            <td>@Model.IdentityRoles.Count</
+
+

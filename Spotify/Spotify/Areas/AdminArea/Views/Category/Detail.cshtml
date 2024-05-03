@@ -1,0 +1,31 @@
+﻿@model Category
+
+
+<h2>Detail</h2>
+
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <img src="~/assets/images/@Model.ImageUrl" width="150" height="150" style="    margin-bottom: 20px;" />
+                <h2 class="card-title"><span>Name: </span> @Model.Name</h2>
+                <h2 class="card-title" style="background-color:@Model.Color;width:30px; height:30px; border-radius:50%"></h2>
+                <h2>Albums</h2>
+                @if (Model.Albums != null)
+                {
+                    @foreach (var album in Model.Albums)
+                    {
+                        <li style="font-size: 14px; margin-bottom: 5px;list-style-type: decimal;">@album.Name</li>
+                    }
+                }
+                else
+                {
+                    <li style="font-size: 14px; margin-bottom: 5px;list-style-type: none;">0</li>
+                }
+
+                <a asp-action="index" class="btn btn-dark">Back</a>
+            </div>
+        </div>
+    </div>
+</div>
+

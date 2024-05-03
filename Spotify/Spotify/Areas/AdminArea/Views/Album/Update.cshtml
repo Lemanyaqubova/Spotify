@@ -1,0 +1,55 @@
+﻿@model AlbumUpdateVM
+
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title"></h4>
+                <p class="card-description">
+                    Update Album 
+                </p>
+                <form method="post" class="forms-sample" enctype="multipart/form-data">
+                    <div class="main-image">
+                        <h3>Main image</h3>
+                        <img width="200" src="~/assets/images/@Model.ImageUrl" />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Photo"></label>
+                        <input asp-for="Photo" class="form-control" placeholder="Photo">
+                        <span class="text-danger" asp-validation-for="Photo"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Name"></label>
+                        <input asp-for="Name" class="form-control" placeholder="Name">
+                        <span class="text-danger" asp-validation-for="Name"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CreatedTime"></label>
+                        <input asp-for="CreatedTime" class="form-control" placeholder="time">
+                        <span class="text-danger" asp-validation-for="CreatedTime"></span>
+                    </div>  
+                    <div>
+                        <label asp-for="ArtistId">Artists</label>
+                        <select asp-for="ArtistId" class="form-select" asp-items="ViewBag.Artists"></select>
+                        <div>
+                            <span asp-validation-for="ArtistId" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <label asp-for="CategoryId">Category</label>
+                        <select asp-for="CategoryId" class="form-select" asp-items="ViewBag.Category"></select>
+                        <div>
+                            <span asp-validation-for="CategoryId" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                    <button class="btn btn-light">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <partial name="_ValidationPartial"></partial>
+      }

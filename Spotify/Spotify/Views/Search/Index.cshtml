@@ -1,0 +1,65 @@
+﻿@model SearchVM
+<header id="spotify-header">
+    <div class="content">
+     <div style="display:flex;flex-direction:column;gap:20px">
+            <div class="search-filter" style="display: none">
+                <button filter-id="0"><span>All</span></button>
+                <button filter-id="1"><span>Songs</span></button>
+                <button filter-id="2"><span>Artist</span></button>
+                <button filter-id="3"><span>Albums</span></button>
+                <button filter-id="4"><span>Playlist</span></button>
+            </div>
+            <div class="left-side">
+                <div class="search-area">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="searchInput" placeholder="What do you want to play?">
+                    <i class="fa-solid fa-xmark delete"></i>
+                </div>
+            </div>
+           
+     </div>
+       
+    </div>
+</header>
+<section id="navbar-mobile-search">
+    <div class="content">
+        <div class="left-side">
+            <h1>Search</h1>
+        </div>
+        <div class="right-side">
+            <!-- <a href="#">
+                <button id="signUp">Sign up</button>
+            </a>
+            <a href="#">
+                <button id="signIn">Log in</button>
+            </a> -->
+            <div class="search-area-nav">
+                <i class="fa-solid fa-magnifying-glass search"></i>
+                <input type="text" id="searchInput" placeholder="What do you want to play?">
+                <i class="fa-solid fa-xmark delete"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="cards-area">
+    <div class="content">
+        <div class="throwback">
+            <h2><a style="text-decoration: none;" href="#">Browse all</a></h2>
+        </div>
+        <div class="main-cards-search">
+            @foreach (var card in Model.Categories)
+            {
+                <a asp-controller="search" asp-action="detail" asp-route-id="@card.Id" class="card-container-search">
+                    <div class="card" style="background-color:@card.Color">
+                        <p>@card.Name</p>
+                        <img src="~/assets/images/@card.ImageUrl" alt="metal-category">
+                    </div>
+                </a>
+            }
+        </div>
+    </div>
+</section>
+
+@section Scripts{
+    <script src="~/common/functionalities/search.js"></script>
+}
